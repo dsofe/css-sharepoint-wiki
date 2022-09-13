@@ -1,1 +1,21 @@
-  <link rel="stylesheet" href="styles.css">
+<!--basic code for injecting CSS stylesheet 
+<link rel="stylesheet" href="styles.css">
+-->
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
